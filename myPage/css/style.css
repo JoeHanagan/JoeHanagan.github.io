@@ -1,0 +1,29 @@
+html{
+    background-color: rgb(253, 156, 156);
+}
+
+#banner{
+    background-color: rgb(218, 76, 76);
+    border: 5px solid brown;
+    border-collapse: collapse;
+}
+
+#banner h1{
+    text-align: center;
+}
+
+#banner h2{
+    text-align: center;
+}
+
+#sidebar{
+    background-color: rgb(218, 76, 76);
+    border: 5px solid brown;
+    border-collapse: collapse;
+}
+
+#content{
+    background-color: rgb(218, 76, 76);
+    border: 5px solid brown;
+    border-collapse: collapse;
+}

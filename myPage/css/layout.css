@@ -1,0 +1,29 @@
+#mainDiv {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%; 
+}
+
+#banner{
+    background-color: aqua;
+    margin-bottom: 0;
+}
+
+#sidebar{
+    background-color: chartreuse;
+    max-width: 140px;
+    float: left;
+    margin-top: 0px;
+}
+
+#content{
+    background-color: gold;
+    max-width: 840px;
+    float: right;
+    margin-top: 0px;
+}
+
+img{
+    align-items: center;
+}
