@@ -4,7 +4,7 @@ html{
 
 #banner{
     background-color: rgb(218, 76, 76);
-    border: 5px solid brown;
+    border: 5px solid rgb(116, 22, 22);
     border-collapse: collapse;
 }
 
@@ -18,12 +18,20 @@ html{
 
 #sidebar{
     background-color: rgb(218, 76, 76);
-    border: 5px solid brown;
+    border: 5px solid rgb(116, 22, 22);
     border-collapse: collapse;
 }
 
 #content{
     background-color: rgb(218, 76, 76);
-    border: 5px solid brown;
+    border: 5px solid rgb(116, 22, 22);
     border-collapse: collapse;
+}
+
+#welcome{
+    background-color: rgb(218, 76, 76);
+    border: 5px solid rgb(116, 22, 22);
+    border-collapse: collapse;
+    text-align: center;
+    font-size: large;
 }
