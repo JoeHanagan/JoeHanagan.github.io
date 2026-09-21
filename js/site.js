@@ -21,3 +21,5 @@ if (isMorning){
 
 //append greeting
 welcomeDiv.append(welcomeMessage)
+
+localStorage.setItem("It's a secret to everybody.","23 is number 1!")
