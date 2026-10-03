@@ -35,3 +35,42 @@ html{
     text-align: center;
     font-size: large;
 }
+
+#carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 990px;
+    max-height: 300px;
+    overflow: hidden;
+    gap: 10px;
+    background-color: rgb(218, 76, 76);
+    border: 5px solid rgb(116, 22, 22);
+    border-collapse: collapse;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#carousel img {
+    margin: 15px;
+    max-height: 300px;
+    aspect-ratio: auto 300 / 400;
+    border-radius: 10px;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(218, 76, 76);
+    border: 5px solid rgb(116, 22, 22);
+    border-collapse: collapse;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+button{
+    background-color: rgb(253, 156, 156);
+    border-color: rgb(116, 22, 22);
+}
