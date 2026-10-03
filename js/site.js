@@ -28,11 +28,11 @@ localStorage.setItem("It's a secret to everybody.","23 is number 1!")
 
 //carousel
 const urls = [
-    'https://cdn.corenexis.com/f/aYi7eXh4jew.jpg',
-    'https://cdn.corenexis.com/f/8Ul2QTSOH0u.jpg',
-    'https://cdn.corenexis.com/f/h7qvQ00LBiY.jpg',
-    'https://cdn.corenexis.com/f/zYUiMSeaBAp.jpg',
-    'https://cdn.corenexis.com/f/F1UgBIFyWnq.jpg'
+    'https://images.pexels.com/photos/1454360/pexels-photo-1454360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    'https://images.pexels.com/photos/933964/pexels-photo-933964.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    'https://images.pexels.com/photos/267885/pexels-photo-267885.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    'https://images.pexels.com/photos/1251861/pexels-photo-1251861.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    'https://images.pexels.com/photos/1370296/pexels-photo-1370296.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
 ].map(url => { (new Image()).src = url; return url })
 
 const images = document.querySelectorAll('#carousel img')
