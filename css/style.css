@@ -8,11 +8,7 @@ html{
     border-collapse: collapse;
 }
 
-#banner h1{
-    text-align: center;
-}
-
-#banner h2{
+h1, h2, h3{
     text-align: center;
 }
 
@@ -74,3 +70,16 @@ button{
     background-color: rgb(253, 156, 156);
     border-color: rgb(116, 22, 22);
 }
+
+#pokeImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#newRandom{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+

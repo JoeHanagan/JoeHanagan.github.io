@@ -83,3 +83,48 @@ setInterval(() => {
    }
    showImages()
 }, 5000)
+
+
+//pokemon functionality
+
+const pokeDiv = document.getElementById('randPoke')
+const imgContain = document.getElementById('imgContain')
+const pokeName = document.getElementById('pokeName')
+const pokeBtn = document.getElementById('newRandom')
+
+const getRandomPokemon = async () => {
+    const url = 'https://pokeapi.co/api/v2/pokemon/' + (Math.floor(Math.random() * 1025) + 1);
+    const result = await fetch(url);
+    const data = await result.json();
+    
+    return {
+        id: data.id,
+        name: data.name,
+        sprite: data.sprites.front_default
+    }
+};
+
+
+const renderPokemon = async () => {
+    const pokemon = await getRandomPokemon()
+    const img = document.createElement('img')
+    img.id = "pokeImg" 
+    img.src = pokemon.sprite
+    img.alt = pokemon.name
+    imgContain.append(img)
+
+    pokeName.textContent = pokemon.name
+}
+renderPokemon()
+
+const changePokemon = async () =>{
+    const img = document.getElementById('pokeImg')
+    const pokemon = await getRandomPokemon()
+    img.src = pokemon.sprite
+    img.alt = pokemon.name
+    pokeName.textContent = pokemon.name
+}
+
+pokeBtn.addEventListener("click", () => {
+    changePokemon()
+});
