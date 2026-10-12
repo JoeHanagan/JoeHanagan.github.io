@@ -28,11 +28,11 @@ localStorage.setItem("It's a secret to everybody.","23 is number 1!")
 
 //carousel
 const urls = [
-    "img/c1.jpg",
-    "img/c2.jpg",
-    "img/c3.jpg",
-    "img/c4.jpg",
-    "img/c5.jpg"
+    "img/c1.JPG",
+    "img/c2.JPG",
+    "img/c3.JPG",
+    "img/c4.JPG",
+    "img/c5.JPG"
     
 ].map(url => { (new Image()).src = url; return url })
 
