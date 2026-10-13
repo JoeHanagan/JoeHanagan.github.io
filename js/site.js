@@ -114,7 +114,7 @@ const renderPokemon = async () => {
     img.alt = pokemon.name
     imgContain.append(img)
 
-    pokeName.textContent = pokemon.name
+    pokeName.textContent = '#' + pokemon.id + ' ' +pokemon.name
 }
 renderPokemon()
 
@@ -123,7 +123,7 @@ const changePokemon = async () =>{
     const pokemon = await getRandomPokemon()
     img.src = pokemon.sprite
     img.alt = pokemon.name
-    pokeName.textContent = pokemon.name
+    pokeName.textContent = '#' + pokemon.id + ' ' +pokemon.name
 }
 
 pokeBtn.addEventListener("click", () => {

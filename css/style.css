@@ -16,6 +16,10 @@ h1, h2, h3{
     background-color: rgb(218, 76, 76);
     border: 5px solid rgb(116, 22, 22);
     border-collapse: collapse;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 1.5em;
 }
 
 #content{
@@ -83,3 +87,24 @@ button{
     margin-right: auto;
 }
 
+#randPoke{
+    border-top: 5px solid rgb(116, 22, 22);
+}
+
+nav a {
+    text-align: center;
+    font-size: 1.2em;
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(66, 2, 2);
+    text-decoration: underline;
+}
+
+#new-todo{
+    background-color: rgb(243, 193, 193);
+    border-color: rgb(68, 10, 10);
+    color: rgb(68, 10, 10);
+}
