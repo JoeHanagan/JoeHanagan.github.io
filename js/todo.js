@@ -6,12 +6,12 @@ const todos = JSON.parse(localStorage.getItem('todo-list')) || []
 
 const renderTodo = () => {
     list.innerHTML = ''
-    //const todos = JSON.parse(localStorage.getItem('todo-list')) || []
+    const todos = JSON.parse(localStorage.getItem('todo-list')) || []
     todos.forEach(element => {
         const li = document.createElement('li')
         li.textContent = element.text
         list.append(li)
-    });
+    })
 }
 
 submit.addEventListener("click", () => {
